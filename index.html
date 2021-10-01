@@ -4,12 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-    crossorigin="anonymous"
-  />
+    <!-- bootstrapcdn.com/fontawesome/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="progress.css">
     <title>Custom Video Player</title>
@@ -25,6 +21,7 @@
             <i class="fa fa-stop fa-2x"></i>
         </button>
         <input type="range" class="progress" id="progress" min="0" max="100" step="0.1" value="0">
+        <span class="timestamp" id="timestamp">00:00</span>
     </div>
 
 
